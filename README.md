@@ -37,14 +37,14 @@
 CodeNexus/
 ├── public/                 # React public assets
 ├── src/                    # React source code (components, pages)
-├── server/                 # Backend code (Node.js + Express)
-│   ├── config/
-│   ├── controllers/
-│   ├── middlewares/
-│   ├── models/
-│   ├── routes/
-│   ├── utils/
-│   ├── .env.sample
+├── server/                 # Backend code (Node.js, Express, MongoDB)
+│   ├── config/             # DB connection and 3rd-party service configs (e.g., Razorpay, Cloudinary)
+│   ├── controllers/        # Functions handling request/response logic
+│   ├── middlewares/        # Auth, error handling, and request validation middleware
+│   ├── models/             # Mongoose schemas for database structure (User, Course, etc.)
+│   ├── routes/             # API endpoint definitions and route handlers
+│   ├── utils/              # Helper functions (token generation, mailing, etc.)
+│   ├── .env.sample         # Example environment variable setup file
 │   └── index.js
 ├── .gitignore
 ├── package.json            # Frontend package config
