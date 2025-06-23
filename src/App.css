@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.home-background{
+    background: url(../src/assets/Images/bghome.svg);
+    height: 333px;
+}
+#frameimg{
+    position: absolute;
+    z-index: 0;
+}
+#mainimg{
+    position: absolute;
+    z-index: 100;
+}
+
+body{
+    overflow-x: hidden;
+}
